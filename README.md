@@ -1,11 +1,5 @@
 # Social Network API
 
-
-![JavaScript][js-url]
-![Node][node-url]
-![Mongo][mongo-url]
-![Express][express-url]
-
 ## Installation
 
 Clone the repository:
