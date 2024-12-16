@@ -1,11 +1,5 @@
 # Social Network API
 
-
-![JavaScript][js-url]
-![Node][node-url]
-![Mongo][mongo-url]
-![Express][express-url]
-
 ## Installation
 
 Clone the repository:
@@ -36,18 +30,18 @@ Use your browser or an app like [Insomnia](https://insomnia.rest/) to test the R
 **User**
 - Get all users:        `GET /api/users`
 - Create a user:        `POST /api/users`
-- Get user by ID:       `GET /api/users/:userId'
-- Update a user:        `PUT /api/users/:userId'
-- Delete a user:        `DELETE /api/users/:userId'
+- Get user by ID:       `GET /api/users/:userId`
+- Update a user:        `PUT /api/users/:userId`
+- Delete a user:        `DELETE /api/users/:userId`
 - Add a friend:         `PUT /api/users/:userId/friends/:friendId`
 - Delete a friend:      `DELETE /api/users/:userId/friends/:friendId`
 
 **Thought**
 - Get all thoughts:     `GET /api/thoughts`
 - Create a thought:     `POST /api/thoughts`
-- Get thought by ID:    `GET /api/thoughts/:thoughtId'
-- Update a thought:     `PUT /api/thoughts/:thoughtId'
-- Delete a thought:     `DELETE /api/thoughts/:thoughtId'
+- Get thought by ID:    `GET /api/thoughts/:thoughtId`
+- Update a thought:     `PUT /api/thoughts/:thoughtId`
+- Delete a thought:     `DELETE /api/thoughts/:thoughtId`
 
 **Reaction**
 - Add a reaction:       `PUT /api/thoughts/:id/reactions`
@@ -64,5 +58,4 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
 3. Commit your changes (`git commit -am 'Add some featureName'`)
 4. Push to the branch (`git push origin feature/featureName`)
 5. Create a new Pull Request
-
 
