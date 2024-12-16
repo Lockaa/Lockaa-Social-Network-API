@@ -1,21 +1,68 @@
-# Lockaa-Social-Network-API
+# Social Network API
 
-Acceptance Criteria
 
-GIVEN a social network API
+![JavaScript][js-url]
+![Node][node-url]
+![Mongo][mongo-url]
+![Express][express-url]
 
-WHEN I enter the command to invoke the application
+## Installation
 
-THEN my server is started and the Mongoose models are synced to the MongoDB database
+Clone the repository:
 
-WHEN I open API GET routes in Insomnia for users and thoughts
+```sh
+git clone https://github.com/Lockaa/Lockaa-Social-Network-API
+```
 
-THEN the data for each of these routes is displayed in a formatted JSON
+Install the required dependencies:
 
-WHEN I test API POST, PUT, and DELETE routes in Insomnia
+```sh
+npm install
+```
 
-THEN I am able to successfully create, update, and delete users and thoughts in my database
+Run the project in your local browser:
 
-WHEN I test API POST and DELETE routes in Insomnia
+```sh
+npm start
+```
 
-THEN I am able to successfully create and delete reactions to thoughts and add and remove friends to a user’s friend list
+
+## Usage
+
+Use your browser or an app like [Insomnia](https://insomnia.rest/) to test the REST API.
+
+## Endpoints
+
+**User**
+- Get all users:        `GET /api/users`
+- Create a user:        `POST /api/users`
+- Get user by ID:       `GET /api/users/:userId'
+- Update a user:        `PUT /api/users/:userId'
+- Delete a user:        `DELETE /api/users/:userId'
+- Add a friend:         `PUT /api/users/:userId/friends/:friendId`
+- Delete a friend:      `DELETE /api/users/:userId/friends/:friendId`
+
+**Thought**
+- Get all thoughts:     `GET /api/thoughts`
+- Create a thought:     `POST /api/thoughts`
+- Get thought by ID:    `GET /api/thoughts/:thoughtId'
+- Update a thought:     `PUT /api/thoughts/:thoughtId'
+- Delete a thought:     `DELETE /api/thoughts/:thoughtId'
+
+**Reaction**
+- Add a reaction:       `PUT /api/thoughts/:id/reactions`
+- Delete a reaction:    `DELETE /api/thoughts/:id/reactions`
+
+## Meta
+
+Distributed under the MIT license. See ``LICENSE`` for more information.
+
+## Contributing
+
+1. Fork it (<https://github.com/Lockaa/Lockaa-Social-Network-API/fork>)
+2. Create your feature branch (`git checkout -b feature/fooBar`)
+3. Commit your changes (`git commit -am 'Add some fooBar'`)
+4. Push to the branch (`git push origin feature/fooBar`)
+5. Create a new Pull Request
+
+
