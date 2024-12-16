@@ -30,9 +30,9 @@ Use your browser or an app like [Insomnia](https://insomnia.rest/) to test the R
 **User**
 - Get all users:        `GET /api/users`
 - Create a user:        `POST /api/users`
-- Get user by ID:       `GET /api/users/:userId'
-- Update a user:        `PUT /api/users/:userId'
-- Delete a user:        `DELETE /api/users/:userId'
+- Get user by ID:       `GET /api/users/:userId`
+- Update a user:        `PUT /api/users/:userId`
+- Delete a user:        `DELETE /api/users/:userId`
 - Add a friend:         `PUT /api/users/:userId/friends/:friendId`
 - Delete a friend:      `DELETE /api/users/:userId/friends/:friendId`
 
