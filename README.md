@@ -44,8 +44,8 @@ Use your browser or an app like [Insomnia](https://insomnia.rest/) to test the R
 - Delete a thought:     `DELETE /api/thoughts/:thoughtId`
 
 **Reaction**
-- Add a reaction:       `PUT /api/thoughts/:id/reactions`
-- Delete a reaction:    `DELETE /api/thoughts/:id/reactions`
+- Add a reaction:       `POST /api/thoughts/:thoughtId/reactions`
+- Delete a reaction:    `DELETE /api/thoughts/:thoughtId/reactions/:reactionId`
 
 ## Meta
 
