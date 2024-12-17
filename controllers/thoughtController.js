@@ -19,7 +19,7 @@ module.exports = {
             .select('-__v')
             .then((dbThoughtData) =>
                 !dbThoughtData
-                    ? res.status(404).json({ message: 'No thought found with this id!' })
+                    ? res.status(404).json({ message: 'No thought found with this id' })
                     : res.json(dbThoughtData)
             )
             .catch((err) => res.status(500).json(err));
