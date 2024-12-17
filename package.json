@@ -8,7 +8,7 @@
     "scripts": {
       "start": "nodemon server.js"
     },
-    "name": "twittle",
+    "name": "socialNetwork",
     "description": "",
     "version": "1.0.0",
     "main": "server.js",
