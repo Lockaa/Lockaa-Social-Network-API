@@ -33,7 +33,7 @@ Use your browser or an app like [Insomnia](https://insomnia.rest/) to test the R
 - Get user by ID:       `GET /api/users/:userId`
 - Update a user:        `PUT /api/users/:userId`
 - Delete a user:        `DELETE /api/users/:userId`
-- Add a friend:         `PUT /api/users/:userId/friends/:friendId`
+- Add a friend:         `POST /api/users/:userId/friends/:friendId`
 - Delete a friend:      `DELETE /api/users/:userId/friends/:friendId`
 
 **Thought**
