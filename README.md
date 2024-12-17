@@ -59,3 +59,7 @@ Distributed under the MIT license. See ``LICENSE`` for more information.
 4. Push to the branch (`git push origin feature/featureName`)
 5. Create a new Pull Request
 
+
+## Notes
+
+- I currently cannot import this repo into Insomnia as is, because it is paywall'ed and I cannot properly import folders into my environment either.
